@@ -13,3 +13,21 @@ public class Fibonacci_Series {
         System.out.println(arr);
     }
 }
+
+
+// class Solution {
+//     public static int fib(int n) {
+//         int a = -1, b = 1, c = 0;
+//         for (int i = 0; i <= n; i++) {
+//             c = a + b;
+//             a = b;
+//             b = c;
+//         }
+//         return c;
+//     }
+//     public static void main(String[] args) {
+//         int n = 10;
+//         int result = fib(n);
+//         System.out.println("Fibonacci number at position " + n + " is: " + result);
+//     }
+// }
